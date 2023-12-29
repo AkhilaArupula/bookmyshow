@@ -114,6 +114,8 @@ class ShowDetailVC: UIViewController, UICollectionViewDelegate, UICollectionView
            alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
            present(alertController, animated: true, completion: nil)
        }
+    
+    
    }                         // @IBAction func saveAction(_ sender: Any) {
    /* @IBAction func DeleteShow(_ sender: Any)
     {
